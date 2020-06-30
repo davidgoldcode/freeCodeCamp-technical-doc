@@ -1,0 +1,30 @@
+#top-nav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px; 
+}
+
+#top-nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    line-height: 25px;
+}
+
+#top-nav :hover {
+    background-color: darkgray;
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.code {
+    background-color: lightgray;
+    margin-right: 500px;
+}
